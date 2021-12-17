@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #030e12;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+ul{
+    margin-top: 100px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 2rem;
+}
+
+ul li a{
+    color: inherit;
+}
